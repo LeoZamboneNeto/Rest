@@ -11,7 +11,7 @@ import java.util.List;
 @Service
 public class PetService {
     @Autowired
-    private AlunoRepository repository;
+    private PetRepository repository;
     public void save(RequestPet Pet) {
         repository.save(Pet);
 
