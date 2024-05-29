@@ -11,14 +11,14 @@ import java.util.List;
 @RestController
 @RequestMapping("Pet")
 
-public class AlunoController {
+public class PetController {
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
 
     public void cadastroPet(@RequestBody RequestPet Pet) {
         System.out.println("Nome: " + Pet.getNome());
-        System.out.println("CPF: " + Pet.getC());
+        System.out.println("CPF: " + Pet.getCPF());
         System.out.println("Telefone: " + Pet.getTelefone());
 
         service.save(Pet);
