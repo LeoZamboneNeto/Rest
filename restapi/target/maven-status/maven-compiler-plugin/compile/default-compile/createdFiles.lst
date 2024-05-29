@@ -1,0 +1,5 @@
+br\com\aula\restapi\controller\AlunoController.class
+RestapiApplication.class
+br\com\aula\restapi\repository\AlunoRepository.class
+br\com\aula\restapi\service\AlunoService.class
+br\com\aula\restapi\request\RequestAluno.class
